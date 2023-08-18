@@ -1,46 +1,35 @@
-# Getting Started with Create React App
+# Webb application "TvMaze App" is created using CRA (Create-React-App)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Webb application
 
-## Available Scripts
+Start with "npm install" and then "npm run start". 
 
-In the project directory, you can run:
+At Start, user is presented with an input to enter a tv and click "Search" to continue.
+User is navigated to a SearchPage where a list of TV show based on search input is visible. Clicking a TV Show
+navigate to DetailPage where more information about the TV Show can be found. With Cast information, and summary.
 
-### `npm start`
+# Documentation
+I used Sketches from Figma as design to create the webb application and its components.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+I started off using TailwindCSS and was just about to refactor to normal css "As in Landing Page". But 
+couldn't finish all pages due to time limitation. 
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+# If I had more time
 
-### `npm test`
+With more time left I would've finished the app design fully. Using components folders, and plain CSS overall.
+I also would've added tests to all pages. using Storybook testing, Playwright/React Testing Library, Cypress. 
+Using integration tests, e2e and unit testing. There's also tests to ensure the design isn't changing per commits
+with Storybook that is very useful in a larger team. 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+I would've liked to group the tasks of the assignment into a fork with "pull requests" that is validated and testing 
+by automatic tests and a team leader to verify the quality of the code. before commited into a main branch, or staging branch. 
 
-### `npm run build`
+For growing the app. 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+I also found a nice template how to create apps using "nx" within a page I like to share. Using graph and
+restricted components libraries to handle design in a more modular structure.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Link:
+https://dev.to/nx/react-vite-and-typescript-get-started-in-under-2-minutes-56f
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
